@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-inline: 10px;
+}
+.navbar button {
+  margin: 8px;
+  background-color: rgb(166, 134, 196);
+  color: rgb(7, 6, 6);
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+}
+.loginpg {
+  /* width: 40%; */
+  border: 1px solid black;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(171, 34, 195);
+  background: linear-gradient(
+    8deg,
+    rgba(171, 34, 195, 1) 36%,
+    rgba(107, 45, 253, 1) 91%
+  );
+}
+.loginpg form {
+  display: flex;
+  width: 20%;
+  gap: 10px;
+  flex-direction: column;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.loginpg input {
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  border: none;
+}
+.loginpg input ::placeholder {
+  color: black;
+}
+.loginpg button {
+  background-color: rgb(29, 27, 29);
+ border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
